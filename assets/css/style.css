@@ -80,7 +80,7 @@ p {
 }
 
 .hero {
-    background-image: url('/portfolio/assets/images/hero_image.jpg');
+    background-image: url('/Portfolio/assets/images/hero_image.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: 100%;    
@@ -200,7 +200,7 @@ p {
 
 /* Main Project Image */
 .README_generator {
-    background-image: url('/portfolio/assets/images/Placeholder2.jpg');
+    background-image: url('/Portfolio/assets/images/Placeholder2.jpg');
     background-size: cover;
     width: 100%;
     height: 600px;
@@ -210,7 +210,7 @@ p {
 }
 
 .JavaScript-Password-Generator {
-    background-image: url('/portfolio/assets/images/Placeholder3.jpg');
+    background-image: url('/Portfolio/assets/images/Placeholder3.jpg');
     background-size: cover;
     width: 47.5%;
     height: 300px;
@@ -221,7 +221,7 @@ p {
 }
 
 .SVG-Logo-Maker {
-    background-image: url('/portfolio/assets/images/Placeholder4.jpg');
+    background-image: url('/Portfolio/assets/images/Placeholder4.jpg');
     background-size: cover;
     width: 47.5%;
     height: 300px;
@@ -232,7 +232,7 @@ p {
 }
 
 .Employee-tracker {
-    background-image: url('/portfolio/assets/images/Placeholder1.jpg');
+    background-image: url('/Portfolio/assets/images/Placeholder1.jpg');
     background-size: cover;
     width: 47.5%;
     height: 300px;
@@ -243,7 +243,7 @@ p {
 }
 
 .Code-Quiz {
-    background-image: url('/portfolio/assets/images/Placeholder5.jpg');
+    background-image: url('/Portfolio/assets/images/Placeholder5.jpg');
     background-size: cover;
     width: 47.5%;
     height: 300px;
