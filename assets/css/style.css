@@ -83,8 +83,10 @@ p {
     
     background-size: cover;
     background-attachment: fixed;
-    background-position: 100%;   
-    object-fit: cover; 
+    background-position: center;   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 /* "About Me" and "Contact Me" Styling */
@@ -94,7 +96,18 @@ p {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+
 }
+.AboutMe p, .AboutMe a {
+    line-height: 1;
+    color: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 25px;
+    text-align: center;
+    padding: 0 15px 0 15px;
+}
+
 .title1 {
     display: flex;
     flex-wrap: wrap;
@@ -146,6 +159,7 @@ p {
     border-left: #ffffff solid 3px;
 }
 
+
 /* Profile pic */
 .profilePic {
     width: 200px;
@@ -153,15 +167,7 @@ p {
     padding-left: 1%;
 }
 
-.AboutMe p, .AboutMe a {
-    line-height: 1.5;
-    color: #ffffff;
-    width: 80%;
-    margin: 0 auto;
-    font-size: 25px;
-    text-align: center;
-    padding: 0 15px 0 15px;
-}
+
 
 .myWork {
     background-color: #404258;
@@ -169,6 +175,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    padding-top: 2rem;
 }
 
 .myWork a {
@@ -212,6 +219,9 @@ p {
     border: #ffffff 5px solid;
     position: relative;
 }
+.README_generator:hover {
+    opacity: 75%;
+}
 
 .JavaScript-Password-Generator {
     background-image: url('/Portfolio/assets/images/Placeholder3.jpg');
@@ -222,6 +232,9 @@ p {
     margin-right: 0.5%;
     border: #ffffff 5px solid;
     position: relative;
+}
+.JavaScript-Password-Generator:hover {
+    opacity: 75%;
 }
 
 .SVG-Logo-Maker {
@@ -234,6 +247,9 @@ p {
     border: #ffffff 5px solid;
     position: relative;
 }
+.SVG-Logo-Maker:hover {
+    opacity: 75%;
+}
 
 .Employee-tracker {
     background-image: url('/Portfolio/assets/images/Placeholder1.jpg');
@@ -244,6 +260,9 @@ p {
     margin-right: 0.5%;
     border: #ffffff 5px solid;
     position: relative;
+}
+.Employee-tracker:hover {
+    opacity: 75%;
 }
 
 .Code-Quiz {
@@ -256,6 +275,9 @@ p {
     border: #ffffff 5px solid;
     position: relative;
 }
+.Code-Quiz:hover {
+    opacity: 75%;
+}
 
 .contact-me {
     background-color: #404258;
@@ -263,6 +285,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    padding-top: 2rem;
 }
 
 .contact-me a {
