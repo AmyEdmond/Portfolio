@@ -80,7 +80,7 @@ p {
 }
 
 .hero {
-    background-image: url('/Portfolio/assets/images/hero_image.jpg');
+    
     background-size: cover;
     background-attachment: fixed;
     background-position: 100%;    
@@ -102,9 +102,10 @@ p {
     color: #ffffff;
     margin: 0 auto 0 auto;
     padding-right: 15px;
-    width: 10%;
+    width: 300px;
     text-align: end;
     border-right: #ffffff solid 3px;
+    
 }
 
 /* "Work" Section Styling */
@@ -116,7 +117,7 @@ p {
     color: #ffffff;
     margin: 0 auto 0 auto;
     padding-right: 15px;
-    width: 10%;
+    width: 300px;
     text-align: end;
     height: 1250px;
     
@@ -128,7 +129,8 @@ p {
     justify-content: space-around;
     align-items: center;
     margin: 0 auto 0 auto;
-    width: 90%;
+    width: 300px;
+    flex: 1;
 }
 
 .flex-row2 {
@@ -138,13 +140,14 @@ p {
     justify-content: space-around;
     align-items: center;
     margin: 0 auto 0 auto;
-    width: 90%;
+    width: 300px;
+    flex: 1;
     border-left: #ffffff solid 3px;
 }
 
 /* Profile pic */
 .profilePic {
-    width: 10%;
+    width: 200px;
     height: auto;
     padding-left: 1%;
 }
@@ -278,7 +281,7 @@ footer {
 footer h6 {
     color: #ffffff;
     background-color: #404258;
-    font-size: 30px;
+    font-size: 20px;
     margin: 0;
 }
 @media screen and (max-width: 768px) {
