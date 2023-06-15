@@ -5,11 +5,12 @@
 ## Description
 
 The goal for this challenge was to create a portfolio so hiring manager's can see a potential employee's previous work. 
+
 Website URL: https://amyedmond.github.io/Portfolio/
 
 ## Screenshot
 
-![image](https://github.com/AmyEdmond/HTML-CSS-and-Git-Code-Refactor/assets/122325607/5eb27a9f-a774-469d-b1e9-6bc385cc6ed4)
+![image](https://github.com/AmyEdmond/Portfolio/assets/122325607/f199d2c9-eaf7-4b9d-a7db-bb36f5d1f6dc)
 
 ## Table of Contents
 
